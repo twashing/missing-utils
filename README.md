@@ -10,7 +10,8 @@ Simply `(require '[missing-utils.core :as mu])` and start using the functionalit
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2014 Interrupt Software Inc.
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
+
