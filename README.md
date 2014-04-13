@@ -1,6 +1,6 @@
 # missing-utils
 
-A small collection of utilities that I'm collecting, as I build out new projects.
+Missing-utils `[missing-utils "0.1.1"]` is a small collection of utilities that I'm collecting, as I build out new projects.
 
 
 ## Usage
