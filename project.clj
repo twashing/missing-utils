@@ -1,4 +1,4 @@
-(defproject missing-utils "0.1.3-SNAPSHOT"
+(defproject missing-utils "0.1.3"
   :description "Some missing functions that I need across projects"
   :url "https://github.com/twashing/missing-utils"
   :license {:name "Eclipse Public License"
