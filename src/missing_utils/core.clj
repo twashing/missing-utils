@@ -26,7 +26,7 @@
 
 (defn java-methods [^Object obj]
   (sort-by :name
-           (filter :exception-types (:members (r/reflect client)))))
+           (filter :exception-types (:members (r/reflect obj)))))
 
 (defn java-methods-table [^Object obj]
   (clojure.pprint/print-table (java-methods obj)))
