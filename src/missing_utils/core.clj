@@ -11,6 +11,11 @@
   []
   (.. (java.rmi.dgc.VMID.) toString (replaceAll ":" "") (replaceAll "-" "")))
 
+(defn generate-uuid
+  "generate system wide unique ID"
+  []
+  (java.util.UUID/randomUUID))
+
 (defn fns-in-ns [input-ns]
   (require input-ns)
   (keys (ns-publics input-ns)))
